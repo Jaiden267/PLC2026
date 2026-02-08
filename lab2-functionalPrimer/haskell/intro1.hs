@@ -16,10 +16,12 @@ r6 = [1..5]
 r19 = [1..25]
 
 inc n = n + 1
+rgs n = n * 2
 
 r7 = map inc [1..3]
 r8 = map (diff 2) [1..3]
 r9 = map sqrt [1..3]
+r20 = map rgs [1..9]
 
 r10 = zip [1..3] (map sqrt [1..3])
 r11 = zip [1..3] (map sqrt [1..2])
