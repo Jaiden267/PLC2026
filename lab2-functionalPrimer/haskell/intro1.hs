@@ -13,6 +13,7 @@ r4 = diff (diff a b) b  where a = 1; b = 1
 -- lists by enumeration
 r5 = [1,3,4,1]
 r6 = [1..5]
+r19 = [1..25]
 
 inc n = n + 1
 
